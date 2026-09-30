@@ -1,0 +1,14 @@
+{
+   "extDesc": {
+      "description": "Requestly browser extension description visible in Web Stores",
+      "message": "Intercept & modify HTTP(S) traffic: redirect URLs, modify headers, inject scripts, mock REST & GraphQL APIs, and more."
+   },
+   "extIconTitle": {
+      "description": "Tooltip text shown on hovering Requestly browser extension icon",
+      "message": "Requestly: Intercept & Modify HTTP Requests"
+   },
+   "extName": {
+      "description": "Requestly browser extension name which is visible in Web Stores",
+      "message": "Requestly: Intercept & Modify HTTP Requests"
+   }
+}
