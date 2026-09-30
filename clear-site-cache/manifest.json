@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Clear Site Data",
+  "version": "2.0.0",
+  "description": "一键清除当前网站的本地数据：Cookie、LocalStorage、IndexedDB、CacheStorage、Service Worker 等，只影响当前站点。",
+  "permissions": ["browsingData", "tabs", "contextMenus", "scripting", "activeTab"],
+  "action": {
+    "default_title": "清除本站数据并刷新"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
